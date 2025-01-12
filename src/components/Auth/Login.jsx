@@ -1,13 +1,14 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
-const Login = () => {
+const Login = ({handleLogin}) => {
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
 
   const SubmitHandler = (e) => {
     e.preventDefault();
     console.log(email, password);
-
+    handleLogin(email, password);
     setemail("");
     setpassword("");
   };
@@ -57,7 +58,7 @@ const Login = () => {
                 </h1>
               </div>
             </div>
-            <button className="w-[25%] rounded-full hover:border-emerald-600 hover:border-2 hover:bg-transparent bg-emerald-900 placeholder:text-gray-400 px-6 py-[10px] font-semibold hover:py-[8px]">
+            <button className="w-[25%] rounded-full hover:bg-emerald-800 hover:border-2 hover:border-emerald-800 bg-emerald-900 placeholder:text-gray-400 px-6 py-[10px] font-semibold hover:py-[8px]">
               Log In
             </button>
           </form>

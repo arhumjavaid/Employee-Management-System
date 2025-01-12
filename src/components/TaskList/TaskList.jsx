@@ -1,7 +1,7 @@
 
 const TaskList = () => {
   return (
-    <div id="tasklist" className="h-[55%] overflow-x-auto flex items-center justify-start gap-5 w-full flex-nowrap py-5 mt-10">
+    <div id="tasklist" className="h-[55%]  overflow-x-auto flex items-center justify-start gap-5 w-full flex-nowrap py-5 mt-10">
         <div className="flex-shrink-0 h-full w-[300px] bg-red-400 rounded-xl p-5">
             <div className="flex justify-between items-center">
                 <h1 className="bg-red-600 text-sm px-3 py-1 rounded-md">High</h1>

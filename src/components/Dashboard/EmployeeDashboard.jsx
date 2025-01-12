@@ -1,6 +1,6 @@
 import Header from "../other/Header"
 import TaskLIstNumbers from "../other/TaskLIstNumbers"
-import TaskList from "../TaskList/TaskList"
+import TaskList from "../taskList/TaskList"
 
 const EmployeeDashboard = () => {
   return (

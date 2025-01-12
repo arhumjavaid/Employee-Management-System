@@ -18,6 +18,6 @@ html,body{
     color: white;
 }
 
-#tasklist, .admin::-webkit-scrollbar {
+#tasklist::-webkit-scrollbar, .admin::-webkit-scrollbar {
     display: none;
 }
